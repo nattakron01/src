@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/Site1.master.cs" Inherits="Project.Site1" %>
+
+<html>
+<head runat="server">
+    <!-- Meta tags and CSS reference needed for bootstrap -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <title>ADHD Test</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            display: inline-block;
+            padding-top: .3125rem;
+            padding-bottom: .3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+            width: 95px;
+        }
+    </style>
+</head>
+<body style="padding-top: 70px;">
+    <form id="form1" runat="server">
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="auto-style1" style="color:white;">ADHD Test By MOPH</div>
+        </nav>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                
+            </footer>
+        </div>
+    </form>
+
+    <!-- jQuery and Bootstrap JS files -->
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+</body>
+</html>

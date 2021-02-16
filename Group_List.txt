@@ -1,0 +1,6 @@
+test001_เด็กชายกอไก่ test001 1 SP true
+test001_วิวัต test001 2 SP true
+test001_ทดสอบ test001 3 SP false
+test001_เด็กชายกอไก่ test002 5 ครู true
+test001_เด็กคนหนึ่ง test001 6 SP true
+test001_เด็กชายกอไก่ test001 7 SP true
